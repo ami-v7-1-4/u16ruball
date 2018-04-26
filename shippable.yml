@@ -12,4 +12,5 @@ rvm:
 build:
     
   ci:
-    - ruby -v   
+    - ruby -v  
+    - docker pull shippabledocker/sample_node_pvt:ecr
