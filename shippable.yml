@@ -1,4 +1,4 @@
-language: jruby
+language: ruby
 
 # Version number
 rvm:
