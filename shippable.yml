@@ -11,12 +11,4 @@ rvm:
 build:
     
   ci:
-    - ruby -v  
-    - docker pull shippabledocker/sample_node_pvt:ecr
-    
-integrations:
-    
-  hub:
- #Docker integration
-    - integrationName: ship-docker
-      type: dockerRegistryLogin
+    - ruby -v
